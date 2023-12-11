@@ -15,12 +15,24 @@ header {
 }
 
 h1 {
-    font-size: 24px;
+    margin: 10px 0;
+    font-size: 20px;
+    color: rgb(224, 224, 224);
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: rgb(65, 65, 65);
+}
+
+strong {
+    color: rgb(65, 65, 65);
 }
 
 section {
     background-color: #fff;
-    padding: 15px;
+    padding: 5px 15px;
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -46,8 +58,23 @@ a:hover {
     color: #0056b3;
 }
 
-.sep{
+.sep {
     height: 4px;
 }
 
 
+.navbar-current {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+nav {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+nav span {
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
