@@ -1,4 +1,4 @@
-const pdfFolder = '/docs/';
+const pdfFolder = 'https://romanrios.github.io/caclinks/docs/';
 const pdfListElement = document.getElementById('pdfList');
 
 function cleanUpFileName(fileName) {
