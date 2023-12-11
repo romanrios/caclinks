@@ -1,4 +1,4 @@
-const pdfFolder = './assets/';
+const pdfFolder = '/docs/';
 const pdfListElement = document.getElementById('pdfList');
 
 function cleanUpFileName(fileName) {
